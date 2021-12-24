@@ -1,0 +1,23 @@
+.help
+
+
+CREATE TABLE gro (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name VARCHAR(60),
+	phone VARCHAR(60));
+
+INSERT INTO gro (name, phone)
+ VALUES('kek','8');
+INSERT INTO gro (name, phone)
+ VALUES('Lolik','9');
+
+SELECT * FROM gro
+
+.mode line
+.mode column
+.Headers on
+.width x y z
+
+DROP TABLE <name>;
+SELECT * FROM <> ORDER BY  <> ASC/DESC
+
